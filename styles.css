@@ -92,8 +92,93 @@ h4{
 	padding-top:3px;
 	padding-bottom:3px;
 	height:auto;
-	width:100%
+	width:100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #version_bar h2{
 	text-align: center;
+}
+/*----------------------------------------------------------------------------*/
+.sectit{
+	margin-left:5%;
+}
+/*----------------------------------------------------------------------------*/
+#aboutmain{
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+.aboutelem_l{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+.aboutelem_l .aboutimg{
+	width: 50%;
+	height: 20%;
+}
+.aboutelem_l .aboutimg img{
+	width: 300px;
+	height: 190px;
+	float: right;
+	padding-right: 20px;
+}
+.aboutelem_l .abouttext{
+	float: left;
+	padding-right: 5%;
+	text-align: left;
+}
+.aboutelem_r{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+.aboutelem_r .aboutimg{
+	width: 50%;
+	height: 20%;
+}
+.aboutelem_r .aboutimg img{
+	width: 300px;
+	height: 190px;
+	float: left;
+	padding-left: 20px;
+}
+.aboutelem_r .abouttext{
+	float: right;
+	padding-left: 5%;
+	text-align: right;
+}
+/*----------------------------------------------------------------------------*/
+#modulemain{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	gap: 50px;
+}
+.module{
+	width: 225px;
+	height: 265px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+.module img{
+	width: 225px;
+	height: 265px;
+}
+.module p{
+	text-align: center;
+	padding-bottom: 8px;
+	margin-top: 10px;
 }
